@@ -11,6 +11,8 @@
     <title>Aprendiendo HTML</title>
     <!-- DESCRIPTION: maximo 165 caracteres -->
     <meta name="description" content="En esta pagina estamos aprendiendo los fundamentos de HTML con @jonmircha" >
+    <link rel="stylesheet" href="assets/estilos.css">
+
 </head>
 <body>     
     <h2> Aprendiendo HTML</h2>
@@ -29,7 +31,7 @@
     <p> Un párrafo</p>
     <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit hic placeat esse debitis veritatis fugit non sit voluptate similique illum nobis, accusamus eos, facilis quod dolor suscipit velit quos. Ullam.</p>
     <p>
-        Etiquetas de texto:
+        Etiquetas de texto (ETIQUETAS DE LINEA):
                     <b> negrita</b>,
                     <i> itálica</i>,
                     <u> subrayado</u>,
@@ -82,17 +84,96 @@
         </pre>
     </p>
     <hr>
-    <h2> Estructuras Semantica HTML5</h2>
+    <h2> Estructuras Semantica HTML5 (ETIQUETA DE BLOQUE)</h2>
     <div> div - es una etiqueta contenedora que no tiene semántica</div>
     <header> Header- Cabecera de un sitio web o de una sección</header>
     <main> main - Define la seccion principal del documento, solo puede existir una etiqueta main por documento</main>
     <footer> footer - Píe de pagina de un sitio web o de una sección</footer>
     <nav> nav - Representa una navegacion</nav>
     <article> article - representa un seccion autocontenido</article>
-    <p>
- 
-    </p>
+    <aside> aside - Representa contenido complementario o secundario</aside>
+    <section> section - representa una seccion de contenido generico </section> 
+    <address> address - Representa una direccion de contacto </address>
+    
+    <hr>
+    <h2> Etiquetas de Bloque VS Etiquetas de Línea</h2>
+    <div style="background-color: yellow;color: blue;"> La etiqueta de bloque por excelencia es la div, una etiqueta de bloque es aquella que genera saltos de linea con sus etiquetas hermanas</div>
+    <span style="background-color: orange;"> La etiqueta de linea por excelencia es la span, una etiqueta de linea solo ocupa el espacio necesario que tiene su contenido</span>
+    <hr>
+    <h2>Estilos CSS en HTML</h2>
+    <hr>
+    <h2>Scripts en HTML</h2>
+    <hr>
+    <h2>Imágenes</h2>
+    <img src="assets/py1.png" alt="Tabla aplicaciones Python">
+    <hr>
+    <h2>Figuras</h2>
+    <figure>
+        <img src="assets/py1.png" alt="Tabla de los Elementos HTML">
+        <figcaption> Fig. 1 Tareas de Python</figcaption>
+    </figure>  
+    <hr>
+    <h2>Listas Ordenas</h2>
+    <h3>Las estaciones del año son:</h3>
+    <ol>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <ol start="3">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <ol reversed>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <ol type="i">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <hr>
+    <h2>Listas Desordenadas</h2>
+    <h3>Cosas por hacer</h3>
+    <ul type="square">
+        <li>Terminar de grabar los fragmentos del curso de HTML</li>
+        <li>Editar el video final</li>
+        <li>Subirlo a Youtube</li>
+    </ul>
+    <ul type="circle">
+        <li>Terminar de grabar los fragmentos del curso de HTML</li>
+        <li>Editar el video final</li>
+        <li>Subirlo a Youtube</li>
+    </ul>
+    <ul>
+        <li>Terminar de grabar los fragmentos del curso de HTML</li>
+        <li>Editar el video final</li>
+        <li>Subirlo a Youtube</li>
+    </ul>
+    <hr>
+    <h2>Lista de Definicion usando dt y dd</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Es un lenguaje de marcado que define el contenido de la web</dd>
+        <dt>CSS</dt>
+        <dd>Es un lenguaje de definicion que da estilos al codigo HTML</dd>
+        <dt>Javascript</dt>
+        <dd>Es el lenguaje de la Web</dd>
+    </dl>
 
+
+
+
+    <script>
+        console.log("Hola mundo, estamos aprendiendo HTML")
+    </script>
+    <script src="assets/codigos.js"></script>
 </body>
 </html>
-

@@ -1,0 +1,14 @@
+body{
+    font: 1em sans-serif;
+}
+h1{
+    color: navy;
+}
+
+h2{
+    color:orangered
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
